@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-us{
+    margin: 20px;
+    padding: 100px 300px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: left;
+}
+
+.about-us-1{
+    padding: 15px 0px;
+    color: rgb(49, 49, 49);
+    font-size: 14px;
+    display: inline;
+}

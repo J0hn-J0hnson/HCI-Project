@@ -5,7 +5,7 @@
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.about-us{
+.about-us-black-title{
     margin: 20px;
     padding: 100px 300px;
     color: rgb(0, 0, 0);
@@ -13,7 +13,7 @@
     text-align: left;
 }
 
-.about-us-1{
+.about-us-grey-desc{
     padding: 15px 0px;
     color: rgb(49, 49, 49);
     font-size: 14px;
@@ -76,7 +76,7 @@ header {
 }
 
 .banner-about-us{
-    background-image: url("/images/#");
+    background-image: url("/images/coffee-image-1.png");
     background-size: cover;
     height: 180px;
 }

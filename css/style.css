@@ -60,3 +60,35 @@ header {
     color: rgb(39, 181, 181);
     cursor: pointer;
 }
+
+.banner-name{
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.banner-coffee{
+    background-image: url("/images/Roasted_coffee_beans.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.banner-about-us{
+    background-image: url("/images/#");
+    background-size: cover;
+    height: 180px;
+}
+
+.banner-home{
+    background-image: url("/images/#");
+    background-size: cover;
+    height: 180px;
+}
+
+.banner-register{
+    background-image: url("/images/#");
+    background-size: cover;
+    height: 180px;
+}

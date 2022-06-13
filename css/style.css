@@ -107,3 +107,61 @@ header {
     font-size: 22px;
     text-align: center;
 }
+
+.title-top{
+    text-align: center;
+    align-self: center;
+    margin: 1em;
+    margin-top: 2em;
+    font-size: 40px;
+}
+.product-list{
+    padding: 3em;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.product-list .card{
+    padding:1em;
+    text-align: justify;
+    box-shadow: inset;
+    height: 386px;
+    width: 250px;
+    margin: 3em;
+    
+}
+
+.description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    max-width: 200px;
+
+}
+
+.top-text{
+    display: inline-flex;
+    vertical-align: bottom;
+    line-height: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.title{
+    margin-right: 5px;
+}
+.price{
+    font-size: 16px;
+    vertical-align: bottom;
+    font-weight: 10;
+    align-self: baseline;
+}
+.image{
+    padding: none;
+    height: 287px;
+    width: 218px;
+    margin-bottom: 5px;
+}

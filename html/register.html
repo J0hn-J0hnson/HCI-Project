@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <link rel = "stylesheet" href = "/css/style.css">
-  <link rel="stylesheet" href="/css/aboutHome.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farbucks Coffee</title>
+  <script defer src = "/js/script.js"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Farbucks Coffe</title>
 </head>
 <body>
   <div class = green-line>
@@ -24,8 +25,29 @@
   </header>
   <div class = banner-register>
     <h1 class = banner-name>
-      COFFEE SELECTION
+      REGISTER
     </h1>
+  </div>
+  <div class = rform>
+    <form id="form" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+      </div>
+      <div>
+        <label for="confirm name">Confirm Name</label>
+        <input id="confirm_name" name = "confirm_name" type = "text">
+      </div>
+      <div>
+        <label for="confirm password">Confirm Password</label>
+        <input id="confirm_password" name = "confirm_password" type = "password">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
   </div>
   <footer>
     <h1 class="footer">&copy; FARBUCKS COFFEE </h1>

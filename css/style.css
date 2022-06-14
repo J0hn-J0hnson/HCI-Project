@@ -136,8 +136,93 @@ header {
     margin-bottom: 5px;
 }
 
+/* events */
+
+.event_type_1{
+    flex: auto;
+    height: 400px;
+    width: auto;
+    max-width: 1400px;
+    display: flex;
+    margin:auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+    justify-content: right;
+    background-image: url("/images/event-1.jpg");
+    background-size: cover;
+}
+
+.ec{
+    padding-top: 200px;
+    padding-left: 40px;
+    color: white;
+    text-align: right;
+}
+
+.event_title{
+    color: white;
+    font-size: 48px;
+}
+.etext{
+    padding-top: 5px;
+    color: white;
+    width: 500px;
+    font-weight: 50px;
+}
+
+
+/* form */
+.rform{
+    padding: 80px   ;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    width: 100%;
+    background-color: #0e5362;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #1e719b;
+  }
+
 /* banners */
 @media screen and (max-width:810px){
+    .logo{
+        font-size: large;
+    }
+    .nav-links li{
+        display: block;
+        margin: 2px 0;
+        margin-right: 20px;
+        font-size: 13px;
+    }
     .banner-name{
         font-size: large;
         padding-top: 45px;
@@ -153,4 +238,102 @@ header {
     .banner-register{
         height: 100px;
     }
+    .banner-events{
+        height: 100px;
+    }
+
+    .title-top{
+        font-size: larger;
+        margin-bottom: 5px;
+    }
+
+    .product-list{
+        padding: 1em;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1600px;
+    }
+    .product-list .card{
+        padding:1em;
+        text-align: justify;
+        box-shadow: inset;
+        height: 386px;
+        width: 250px;
+        margin: 3em;
+        
+    }
+    .event_type_1{
+        flex: auto;
+        height: 220px;
+        width: auto;
+        max-width: 700px;
+        display: flex;
+        margin:auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 20px;
+        border-radius: 20px;
+        justify-content: right;
+        background-image: url("/images/event-1.jpg");
+        background-size: cover;
+    }
+    
+    .ec{
+        padding-top: 80px;
+        padding-left: 40px;
+        color: white;
+        text-align: right;
+    }
+    
+    .event_title{
+        color: white;
+        font-size: 36px;
+    }
+    .etext{
+        padding-top: 5px;
+        color: white;
+        width: 300px;
+        font-weight: 50px;
+        font-size: 12px;
+    }
+
+    .rform{
+        padding: 80px   ;
+        font-size: 12px;
+    }
+    
+    input[type=text], select {
+        width: 100%;
+        height: 30px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password], select {
+        height: 30px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      button[type=submit] {
+        height: 30px;
+        width: 100%;
+        background-color: #0e5362;
+        color: white;
+        padding: 8px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
 }

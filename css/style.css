@@ -79,35 +79,6 @@ header {
     height: 180px;
 }
 
-.about-us-black-title{
-    margin: 20px;
-    padding: 100px 300px;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    text-align: left;
-}
-
-.about-us-grey-desc{
-    padding: 15px 0px;
-    color: rgb(49, 49, 49);
-    font-size: 14px;
-    display: inline;
-}
-
-.home-black-title{
-    padding: 0px 350px;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    text-align: center;
-}
-
-.home-grey-desc{
-    padding: 700px 150px 50px 150px;
-    color: rgb(49, 49, 49);
-    font-size: 22px;
-    text-align: center;
-}
-
 .title-top{
     text-align: center;
     align-self: center;
@@ -139,7 +110,6 @@ header {
     text-overflow: ellipsis;
     font-size: 12px;
     max-width: 200px;
-
 }
 
 .top-text{
@@ -164,4 +134,23 @@ header {
     height: 287px;
     width: 218px;
     margin-bottom: 5px;
+}
+
+/* banners */
+@media only screen and (max-width:700px){
+    .banner-name{
+        font-size: large;
+        padding-top: 45px;
+    }
+    .banner-coffee{
+        height: 100px;
+    }
+    
+    .banner-about-us{
+        height: 100px;
+    }
+    
+    .banner-register{
+        height: 100px;
+    }
 }

@@ -74,7 +74,13 @@ header {
 }
 
 .banner-register{
-    background-image: url("/images/#");
+    background-image: url("/images/register_image.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+.banner-events{
+    background-image: url("/images/event-banner.jpg");
     background-size: cover;
     height: 180px;
 }

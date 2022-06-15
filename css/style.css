@@ -181,7 +181,11 @@ header {
 
 /* form */
 .rform{
-    padding: 80px   ;
+    padding: 80px;
+}
+
+.shadow{
+    filter: drop-shadow(0px 3px 2px rgba(0,0,0,0.55));
 }
 
 input[type=text], select {
